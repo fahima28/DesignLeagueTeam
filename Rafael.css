@@ -39,7 +39,20 @@ h1, h2, h3, .title{
   font-family: var(--main-font);
   font-weight: 900;
 }
-.title{color: var(--accent-color);
+.title{
+  color: var(--accent-color);
+  }
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  widht: calc(100vw / var(--g-ratio));
+  height:100vh;
+  min-width:800px;
+  margin: 0 auto;
+  background-color: inherit;
+}
 
 
 
