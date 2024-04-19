@@ -44,6 +44,10 @@ function Ninjas(name, age, height, color ) {
     //coin effect
     const coinImg = document.createElement('img');
     coinImg.setAttibute('src', 'imgs/coin.png');
+    coinImg.setAttibute('id', 'coin-img');
+    coinImg.style.transform = 'translate(-50%,calc (-100% - ' + ninja.height + 'px)';
+    container.appendChild(coinImg);
+    
     
     
     
