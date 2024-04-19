@@ -84,6 +84,13 @@ width: 50%;
   position: relative;
 }
 
+button{
+  background-color: transparent;
+  border: 2px solid var (--accent-color);
+  color: var(--accent-color);
+  font-size: 2rem;
+  padding: 0.25em 1em;
+}
 
 
 
