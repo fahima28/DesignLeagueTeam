@@ -92,6 +92,14 @@ button{
   padding: 0.25em 1em;
 }
 
+#btnCoin,
+#btnPipe,
+#btnPowerUp {
+  transition: all ease 100ms;
+  outline: none !important;
+}
+
+
 
 
 
