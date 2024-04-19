@@ -40,6 +40,11 @@ function Ninjas(name, age, height, color ) {
     button.style.setProperty('background-color','#2ecc71');
     button.style.setProperty('border-color','#2ecc71');
     button.style.setProperty('color','var()--bg-color)');
+
+    //coin effect
+    const coinImg = document.createElement('img');
+    coinImg.setAttibute('src', 'imgs/coin.png');
+    
     
     
 
