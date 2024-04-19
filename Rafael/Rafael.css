@@ -59,6 +59,22 @@ h1, h2, h3, .title{
   padding: 5rem 0;
 }
 /* ========= Main Content =========*/
+.top-container{
+   display: flex;
+  width: 100%;
+}
+
+.lab-info{
+width: 50%;
+}
+
+.content{ 
+  margin-top: 2rem;
+  width: 100%;
+  min-height: 500px;
+  position: relative;
+  border: 2px solid #ccc;
+         
 
 
 
