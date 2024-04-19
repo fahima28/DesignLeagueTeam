@@ -119,6 +119,13 @@ img{
   align-items: center;
 }
 
+#coin-img {
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  height: 60px:
+}
+
 
 
 
