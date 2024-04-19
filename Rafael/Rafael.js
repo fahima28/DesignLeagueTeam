@@ -63,6 +63,10 @@ function Ninjas(name, age, height, color ) {
     powerUpSfx.play();
   };
 }
-
+  const promptUser = () => {
+    let name = prompt('Pick a name:') || '18';
+    let age;
+    let height;
+    
   
 
