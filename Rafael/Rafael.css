@@ -75,7 +75,14 @@ width: 50%;
   position: relative;
   border: 2px solid #ccc;
 }
-         
+
+.btns-container{
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: relative;
+}
 
 
 
