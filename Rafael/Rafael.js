@@ -129,7 +129,16 @@ function Ninjas(name, age, height, color ) {
        for (let i = 0; i < newBtns.length; i++ ) {
          newBtns[i].style.setProperty('margin-left', '1.5rem');
        }
-       
+
+      // Add floor 
+      const floor = document.createElement('div');
+      floor.setAttribute('class', 'floor');
+      container.appendChild(floor);
+      floor.innerHTML =
+        'Name: ' + 
+        ninja.name +
+        '
+        
     
 
 
