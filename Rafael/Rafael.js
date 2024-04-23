@@ -104,7 +104,7 @@ function Ninjas(name, age, height, color ) {
       img = document.createElement('img');
       let size = 'width:' + height + 'px;height:' + height + 'px;';
       if (color === 'blue') {
-        img.setAttribute('src', 'imgs/ninja1.png');
+        img.setAttribute('src', 'imgs/ninja1.png');     
         img.setAtrribute('style', size);
         container.appendChild(img);
       } else if (color === 'green') {
@@ -118,7 +118,8 @@ function Ninjas(name, age, height, color ) {
       }
     };
 
-    
+    this.changeBtns = () => {
+      const btn = document.querySelector('botton');
         
 
     
