@@ -90,7 +90,17 @@ function Ninjas(name, age, height, color ) {
        }
      };
     
-         
+     this.getColor = () => {
+       color = prompt('Choose color: Red Blue Green') || 'red';
+       color = color.toLowerCase();
+       if (color === 'red' || color === 'blue' || color === 'green') {
+         return;
+       } else { 
+         this.getColor();
+       }
+     };
+
+    
 
 
   
