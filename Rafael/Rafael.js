@@ -70,7 +70,7 @@ function Ninjas(name, age, height, color ) {
     let color;
 
     this.getAge = () => { 
-      age = prompt('Pick an age: ') || '18';
+      age = prompt('Pick an age:') || '18';
       age = parseInt (age);
       if (isNaN(age)) { 
         this. getAge();
@@ -79,7 +79,18 @@ function Ninjas(name, age, height, color ) {
       }
     };
     
-      
+     this.getHeight = () => {
+       height = prompt('Pick height: 1, 2, 3, 4') || 4;
+       height = parseInt(height);
+       if (height === 1 || height === 2 || height === 3 || height === 4) {
+         height = height * 64;
+         return;
+       } else {
+         this.getHeight();
+       }
+     };
+    
+         
 
 
   
