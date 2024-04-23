@@ -100,6 +100,11 @@ function Ninjas(name, age, height, color ) {
        }
      };
 
+    this.appendImg = () => {
+      img = document.createElement('img');
+      let size = 'width:' + height + 'px;height:' + height + 'px;';
+      
+
     
 
 
