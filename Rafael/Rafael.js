@@ -120,6 +120,11 @@ function Ninjas(name, age, height, color ) {
 
     this.changeBtns = () => {
       const btn = document.querySelector('botton');
+      const btnContainer = document.querySelector('.btns-container');
+      btnContainer.removeChild(btn);
+      btnContainer.innerHTML =
+        "<button onclick='ninja.coin()' id='btnCoin'>Coin</button> \n <button onclick='ninja.pipe()' 
+        id='btnPipe'>Pipe</button> \n <button onclick='ninja.powerUp()' id='btnPowerUp'>Power Up</button>";
         
 
     
