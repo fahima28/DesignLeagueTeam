@@ -46,8 +46,8 @@ Return 6/5 </button>
 
 <button type="button" onclick="moveIt()">moveIt</button>
 <button type="button" onclick="moveItback()">moveItback</button>
-<button type="button" onclick="move()">move</button>
-<button type="button" onclick="moveback()">moveback</button>
+<button type="button" onclick="moveDown()">move</button>
+<button type="button" onclick="moveUp()">moveUp</button>
 
 
 <div id="container">
@@ -90,21 +90,38 @@ if (pos == 0){
     }
   }
 }
+function moveDown(){
+let id = null
+const elem = document.getElementById("animate")
+let pos =0
+clearInterval(id)
+id = setInterval(frame,5)
+function frame(){
+if (pos == 250){
+clearInterval(id)
+}
+else{
+pos++
+elem.style.top = pos + "px"
+elme.style.left = pos + "px"
+      }
+   }
+ }
 
- function move(){
- right id = null
- const elem = document.getElementById("animate")
- right pos=250
- clearInterval(id)
- id = setInterval(frame,5)
- function frame(){
-if (pos == 0){
-     clearInterval(id)
-     }
-      else{
-       pos--
-      elem.style.top = pos + "px"
-      elem.style.left = pos + "px"  
+function moveUp(){
+let id = null
+const elem = document.getElementById("animate")
+let pos =250
+clearInterval(id)
+id = setInterval(frame,5)
+function frame(){
+if(pos == 0){
+clearInterval(id)
+}
+else{
+pos--
+elem.style.top = pos + "px"
+elem.style.left = pos + "px"
     }
   }
 }
