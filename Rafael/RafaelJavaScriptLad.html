@@ -91,6 +91,23 @@ if (pos == 0){
   }
 }
 
+ function move(){
+ right id = null
+ const elem = document.getElementById("animate")
+ right pos=250
+ clearInterval(id)
+ id = setInterval(frame,5)
+ function frame(){
+if (pos == 0){
+     clearInterval(id)
+     }
+      else{
+       pos--
+      elem.style.top = pos + "px"
+      elem.style.left = pos + "px"  
+    }
+  }
+}
 
 function moveFunk(e){
 let x = e.clientX
