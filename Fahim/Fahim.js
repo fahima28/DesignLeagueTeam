@@ -44,7 +44,7 @@ function Ninjas(name, age, height, color ) {
 
     //coin effect
     const coinImg = document.createElement('img');
-    coinImg.setAttibute('src', 'imgs/coin.png');
+    coinImg.setAttibute('src', 'img/coin.png');
     coinImg.setAttibute('id', 'coin-img');
     coinImg.style.transform = 'translate(-50%,calc (-100% - ' + ninja.height + 'px)';
     container.appendChild(coinImg);
@@ -105,15 +105,15 @@ function Ninjas(name, age, height, color ) {
       img = document.createElement('img');
       let size = 'width:' + height + 'px;height:' + height + 'px;';
       if (color === 'blue') {
-        img.setAttribute('src', 'imgs/ninja1.png');     
+        img.setAttribute('src', 'img/ninja1.png');     
         img.setAtrribute('style', size);
         container.appendChild(img);
       } else if (color === 'green') {
-        img.setAttribute('src', 'imgs/ninja2.png');
+        img.setAttribute('src', 'img/ninja2.png');
         img.setAtrribute('style', size);
         container.appendChild(img);
       } else if (color === 'red') {
-        img.setAttribute('src', 'imgs/ninja3.png');
+        img.setAttribute('src', 'img/ninja3.png');
         img.setAtrribute('style', size);
         container.appendChild(img);
       }
