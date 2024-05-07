@@ -94,15 +94,15 @@ function Ninjas(name, age, height, color ) {
       let size = 'width:' + height + 'px;height:' + height + 'px;';
       if (color === 'blue') {
         img.setAttribute('src', 'img/ninja1.png');     
-        img.setAtrribute('style', size);
+        img.setAttribute('style', size);
         container.appendChild(img);
       } else if (color === 'green') {
         img.setAttribute('src', 'img/ninja2.png');
-        img.setAtrribute('style', size);
+        img.setAttribute('style', size);
         container.appendChild(img);
       } else if (color === 'red') {
         img.setAttribute('src', 'img/ninja3.png');
-        img.setAtrribute('style', size);
+        img.setAttribute('style', size);
         container.appendChild(img);
       }
     };
