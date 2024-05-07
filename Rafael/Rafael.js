@@ -53,7 +53,7 @@ function Ninjas(name, age, height, color ) {
       $('#coin-img'). remove();
     button.style.setProperty('background-color','transparent');
     button.style.setProperty('border-color','var(--accent-color)');
-    button.style.setProperty('color','var(--accent-color);
+    button.style.setProperty('color','var(--accent-color');
     });
   };
   this.pipe = () =>{
