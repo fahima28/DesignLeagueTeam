@@ -2,3 +2,17 @@ html {
   height: 100%;
   width: 100%;
 }
+
+.banner{
+	background-color: rgba(255, 194, 113, 0.8);
+	margin: 15px;
+	padding: 10px;
+	border: 3px solid #ff0000;
+	box-shadow: 1px 3px 30px 1px #ff7a7a;
+	text-transform: capitalize;
+	text-shadow: 1px 1px #D9A404 ;
+	font-family: cursive;
+	height: 140px;
+	text-align: right;
+	font-style: oblique;
+}
