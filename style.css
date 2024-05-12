@@ -28,3 +28,26 @@ html {
   text-align: left;
   z-index: 1;
 }
+
+#left{
+  position: absolute;
+  left: 1px;
+  margin: 2px;
+  padding: 2px;
+  border: 1px solid black;
+  width: 49.5%;
+  height: 850px;
+}
+
+#left h1{
+  font-size: 20px;
+}
+#right{
+position: absolute;
+right: 1px;
+margin: 2px;
+padding: 2px;
+border: 1px solid black;
+width: 49.5%;
+height: 550px;
+}
