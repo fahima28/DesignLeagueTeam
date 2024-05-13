@@ -11,7 +11,7 @@ background-color: #8fed80;
 	background-color: #50c43d;
 	margin: 15px;
 	padding: 10px;
-	border: 3px solid #e6e615;
+	border: 1px solid #e6e615;
 	box-shadow: 1px 3px 30px 1px #ff7a7a;
 	text-transform: capitalize;
 	text-shadow: 1px 1px #D9A404 ;
@@ -38,7 +38,7 @@ background-color: #8fed80;
   left: 1px;
   margin: 2px;
   padding: 2px;
-  border: 3px solid black;
+  border: 1px solid black;
   width: 49.5%;
   height: 850px;
 }
