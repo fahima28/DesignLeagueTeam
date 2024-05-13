@@ -38,8 +38,7 @@ function Ninjas(name, age, height, color ) {
     container.appendChild(coinImg);
     
     $('#coin-img').animate({ top: '60%',opacity: 1 }, 250);
-    $('#coin-img').animate({ top: '70%',opacity: 0 }, 250, () => {
-      $('#coin-img'). remove();
+    $('#coin-img').animate({ top: '70%',opacity: 0 }, 250, () => { $('#coin-img'). remove();
     button.style.setProperty('background-color','transparent');
     button.style.setProperty('border-color','var(--accent-color)');
     button.style.setProperty('color','var(--accent-color');
