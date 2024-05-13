@@ -38,7 +38,7 @@ background-color: #8fed80;
   left: 1px;
   margin: 2px;
   padding: 2px;
-  border: 1px solid black;
+  border: 3px yellow;
   width: 49.5%;
   height: 850px;
 }
@@ -51,10 +51,14 @@ position: absolute;
 right: 1px;
 margin: 2px;
 padding: 2px;
-border: 1px solid black;
+border: 3px yellow;
 width: 49.5%;
 height: 550px;
 }
 
 #prj{
   border: 1px solid green;
+
+b{
+color: yellow;
+}
